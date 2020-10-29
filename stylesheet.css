@@ -1,0 +1,81 @@
+body {
+  background-image: radial-gradient(#000000 20%, transparent 20%),
+     radial-gradient(#000000 20%, transparent 20%);
+  background-color: #780000;
+  background-position: 0 0, 5px 5px;
+  background-size: 10px 10px;
+  height: 200px;
+  width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+}
+
+/* selected link */
+a:active {
+    color: grey;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+    align-items: center;
+    width: 50%;
+    padding: 16px;
+    margine: 12.5%;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+}
+
+/* Change style for span button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
